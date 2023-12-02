@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details - EcoGlow</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* ... your existing styles ... */
+    .bg-theme { background-color: #556B2F; }
+    .text-theme { color: #556B2F; }
+    .bg-theme-light { background-color: rgba(85, 107, 47, 0.1); }
+    .footer-theme { background-color: #556B2F; color: white; }
+    .ecoglow {
+      font-family: 'Chewy', cursive;
+      letter-spacing: 8px;
+      font-size: 50px;
+    }
+    .product-image {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .article-body {
+      max-width: 800px; /* Sets a max width for the article content */
+      margin: auto; /* Centers the article block */
+    }
+    .article-title {
+      font-size: 28px; /* Larger title for article */
+      color: #556B2F;
+      margin-bottom: 20px; /* Spacing after the title */
+    }
+    .article-text {
+      font-size: 18px; /* Comfortable reading size for article text */
+      line-height: 1.6; /* Spacing between lines */
+    }
+    .btn-back {
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #556B2F;
+      border: 2px solid #556B2F;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      display: inline-block; /* To apply padding and border properly */
+      margin-bottom: 20px; /* Spacing before the article content */
+    }
+    .btn-back:hover {
+      background-color: #556B2F;
+      color: #fff;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-theme-light">
+  <!-- Article section -->
+  <section class="container mx-auto px-6 py-20">
+    <article class="article-body bg-white rounded-lg overflow-hidden shadow-lg p-6">
+      <!-- Back button -->
+      <a href="javascript:history.back()" class="btn-back">Back</a>
+      <!-- Product details -->
+      <img src="images/product2.png" class="product-image" alt="Product Name">
+      <h1 class="article-title mt-4">Product Name</h1>
+      <div class="article-text">
+        gsgdr rgdggr drgr
+        <!-- Product description and details... -->
+      </div>
+    </article>
+  </section>
+  <!-- Footer -->
+  <footer class="footer-theme text-center py-4">
+    <div class="container mx-auto px-6">
+      <p class="text-sm">&copy; 2023 EcoGlow. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
