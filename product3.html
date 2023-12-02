@@ -9,7 +9,6 @@
   <title>Product Details - EcoGlow</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* ... your existing styles ... */
     .bg-theme { background-color: #556B2F; }
     .text-theme { color: #556B2F; }
     .bg-theme-light { background-color: rgba(85, 107, 47, 0.1); }
@@ -25,17 +24,17 @@
       object-fit: cover;
     }
     .article-body {
-      max-width: 800px; /* Sets a max width for the article content */
-      margin: auto; /* Centers the article block */
+      max-width: 800px;
+      margin: auto;
     }
     .article-title {
-      font-size: 28px; /* Larger title for article */
+      font-size: 28px;
       color: #556B2F;
-      margin-bottom: 20px; /* Spacing after the title */
+      margin-bottom: 20px;
     }
     .article-text {
-      font-size: 18px; /* Comfortable reading size for article text */
-      line-height: 1.6; /* Spacing between lines */
+      font-size: 18px;
+      line-height: 1.6;
     }
     .btn-back {
       padding: 10px 20px;
@@ -45,8 +44,8 @@
       text-decoration: none;
       font-weight: bold;
       border-radius: 5px;
-      display: inline-block; /* To apply padding and border properly */
-      margin-bottom: 20px; /* Spacing before the article content */
+      display: inline-block;
+      margin-bottom: 20px;
     }
     .btn-back:hover {
       background-color: #556B2F;
@@ -69,21 +68,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body class="bg-theme-light">
-  <!-- Article section -->
   <section class="container mx-auto px-6 py-20">
     <article class="article-body bg-white rounded-lg overflow-hidden shadow-lg p-6">
-      <!-- Back button -->
       <a href="javascript:history.back()" class="btn-back">Back</a>
-      <!-- Product details -->
-      <img src="images/product2.png" class="product-image" alt="Product Name">
-      <h1 class="article-title mt-4">Introducing Our Hydrating Lotion</h1>
+      <img src="images/product3.png" class="product-image" alt="Product Name">
+      <h1 class="article-title mt-4">Introducing Our Organic Cleanser</h1>
       <div class="article-text text-gray-600 mb-4">
-        Quench your skin's thirst with our indulgent Hydrating Lotion. Immerse yourself in a luxurious blend that deeply nourishes, leaving your skin irresistibly soft and supple. Infused with hydrating ingredients, this lotion provides all-day moisture, restoring your skin's natural radiance. Light yet indulgent, it absorbs quickly, making it perfect for daily use. Treat your skin to a hydration boost with our Hydrating Lotion – where beauty meets replenishment.
+        Indulge your skin in the purity of nature with our Organic Cleanser. Immerse yourself in a refreshing blend crafted from natural, organic ingredients, meticulously selected to cleanse and revitalize your skin. This gentle formula effectively removes impurities while maintaining your skin's delicate balance.
+
+        Enriched with nourishing botanicals and antioxidants, our Organic Cleanser provides a spa-like experience every day. The light, soothing texture leaves your skin feeling rejuvenated, promoting a radiant and healthy complexion. Embrace the power of nature in every cleanse, and treat your skin to the goodness it deserves.
       </div>
       <button class="btn-buy" onclick="alert('Thank you for your purchase!')">Buy Now</button>
     </article>
   </section>
-  <!-- Footer -->
   <footer class="footer-theme text-center py-4">
     <div class="container mx-auto px-6">
       <p class="text-sm">&copy; 2023 EcoGlow. All rights reserved.</p>
